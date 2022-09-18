@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended",
+    "prettier/prettier",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "globals": {
+    "__DEBUG__": true,
+    "__WEBPACK__": true,
+    "__VERSION__": true,
+    "__BRANCH__": true
+  }
+}
