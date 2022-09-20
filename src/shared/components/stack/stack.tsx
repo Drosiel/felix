@@ -20,9 +20,9 @@ export const Stack: FC<IStack> = ({
     <div
       className={clsx(
         "flex",
+        `gap-${gap}`,
         `flex-${direction}`,
         wrap && "flex-wrap",
-        `gap-${gap}`,
         className && className
       )}
     >

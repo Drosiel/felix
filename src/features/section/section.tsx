@@ -7,7 +7,7 @@ interface ISection extends IBaseElemet {
 }
 const Section: FC<ISection> = ({ children, className }) => {
   return (
-    <section className={clsx("min-h-screen", className && className)}>
+    <section className={clsx("min-h-screen max-h-screen", className)}>
       {children}
     </section>
   );

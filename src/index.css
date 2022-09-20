@@ -3,10 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    font-size: 1.11111vw;
+  :root {
+    --primary: #cd1338;
+    --secodary: #ffffff;
   }
-
+  html {
+    font: 1.11111vw/1 "Roboto", sans-serif;
+    color: var(--secodary);
+  }
   h1 {
     font-weight: 700;
     font-size: 6.25rem;
