@@ -11,6 +11,15 @@
     font: 1.11111vw/1 "Roboto", sans-serif;
     color: var(--secodary);
   }
+
+  *,
+  ::after,
+  ::before {
+    border-radius: none;
+    border-style: none;
+    border-color: none;
+  }
+
   h1 {
     font-weight: 700;
     font-size: 6.25rem;
